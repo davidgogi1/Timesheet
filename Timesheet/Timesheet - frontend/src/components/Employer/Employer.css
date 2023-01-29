@@ -1,0 +1,54 @@
+.Employer {
+  margin: 1rem;
+  margin-left: 11rem;
+  margin-right: 11rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+}
+
+.contents {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.dropdownX img {
+  width: 18px;
+  height: 18px;
+  margin-left: 3px;
+}
+
+.dropdownX {
+  transition: transform 0.3s ease;
+}
+
+.dropdownX:hover {
+  transform: translateY(-5px);
+}
+
+.dropdownX:hover .contents {
+  display: block;
+  position: absolute;
+  margin-left: -18px;
+}
+
+.dropdownX:hover .contents input {
+  display: block;
+}
+
+.dropdownX:hover .contents button {
+  display: block;
+  border-radius: 15%;
+}
+
+.projects {
+  list-style: none;
+  margin-left: 30px;
+  margin-top: 120px;
+}

@@ -1,0 +1,27 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.Header .Header1 {
+  width: 15%;
+  min-width: 150px;
+}
+
+.Header .Header1 img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.Header .logout {
+  color: blue;
+  font-size: 2rem;
+}
+
+.Header .Header-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}

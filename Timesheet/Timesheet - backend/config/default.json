@@ -1,0 +1,7 @@
+{
+    "jwtPrivateKey": "unsecureKey",
+    "db": "mongodb://localhost/timesheet",
+    "port": "3900",
+    "requiresAuth": false
+  }
+  
